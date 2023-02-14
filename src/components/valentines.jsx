@@ -61,7 +61,8 @@ function Valentines() {
   
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-100">
+    <div className="h-screen bg-gray-100">
+    <div className="flex justify-center items-center pt-12">
       <div className="bg-white rounded-xl shadow-xl p-10 flex flex-col items-center gap-4 m-8">
         <h1 className="text-3xl font-bold text-center flex mb-4">
           Valentine Card Generator{" "}
@@ -211,7 +212,11 @@ function Valentines() {
         </div>
 
       </div>
-      
+    </div>
+    <h3 className="text-4xl font-bold text-center text-gray-800">
+        Meet the
+        <a href="http://fueler.io/prantikseal" target="_blank" rel="noopener noreferrer">        <span className="text-purple-600 hover:text-pink-600"> Maker</span></a>
+      </h3>
     </div>
   );
 }

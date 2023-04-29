@@ -1,1 +1,1 @@
-# starter-project
+# Valentines day card generator
